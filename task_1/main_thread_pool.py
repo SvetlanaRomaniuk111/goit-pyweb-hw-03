@@ -75,24 +75,3 @@ if __name__ == "__main__":
     logging.info(f"Processing complete. Sorted files are in: {output}")
     print(f"You can delete {source}")
 
-# MainThread Starting to process: picture
-# MainThread Processing folder: picture
-# Thread-1 (reader_folder) Processing folder: picture\icons
-# Thread-2 (reader_folder) Processing folder: picture\Logo
-# Thread-3 (reader_folder) Processing folder: picture\Other
-# Thread-4 (reader_folder) Processing folder: picture\wallpaper
-# ThreadPoolExecutor-0_0 Copied: picture\bot-icon.png to dist\png
-# ThreadPoolExecutor-0_1 Copied: picture\javascript_encapsulation.jpg to dist\jpg
-# ThreadPoolExecutor-0_3 Copied: picture\icons\mongodb.jpg to dist\jpg
-# Thread-5 (reader_folder) Processing folder: picture\Other\Icons
-# ThreadPoolExecutor-0_2 Copied: picture\icons\e-learning_icon.jpg to dist\jpg
-# ThreadPoolExecutor-0_4 Copied: picture\Logo\IBM+Logo.png to dist\png
-# ThreadPoolExecutor-0_0 Copied: picture\Other\golang.png to dist\png
-# ThreadPoolExecutor-0_5 Copied: picture\Logo\ibm.svg to dist\svg
-# ThreadPoolExecutor-0_1 Copied: picture\wallpaper\js.png to dist\png
-# ThreadPoolExecutor-0_7 Copied: picture\Logo\logo-tm.png to dist\png
-# ThreadPoolExecutor-0_6 Copied: picture\Other\hqdefault.jpg to dist\jpg
-# ThreadPoolExecutor-0_3 Copied: picture\wallpaper\node-wallpaper.jpg to dist\jpg
-# ThreadPoolExecutor-0_4 Copied: picture\Other\Icons\1600.png to dist\png
-# ThreadPoolExecutor-0_2 Copied: picture\Other\nodejslogo.png to dist\png
-# MainThread Processing complete. Sorted files are in: dist
